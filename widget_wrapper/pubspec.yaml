@@ -13,7 +13,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  pdf: ^3.10.0
+  pdf:
+    url: https://github.com/ergreen/dart_pdf.git
+    path: pdf/
+    ref: 313-column-span-git-dependency
 
 dependency_overrides:
   pdf:
