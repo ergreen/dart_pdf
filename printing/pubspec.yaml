@@ -35,7 +35,11 @@ dependencies:
         url: https://github.com/ergreen/dart_pdf.git
         path: pdf/
         ref: 313-column-span-git-dependency
-  pdf_widget_wrapper: '>=1.0.4 <2.0.0'
+  pdf_widget_wrapper:
+    git:
+      url: https://github.com/ergreen/dart_pdf.git
+      path: widget_wrapper/
+      ref: 313-column-span-git-dependency
   plugin_platform_interface: ^2.1.0
   web: ^1.0.0
 
